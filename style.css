@@ -47,9 +47,25 @@ ul{
     box-shadow:10px 10px lightgray;
     
 }
+.button1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background: white;
+    font-size: 1rem;
 
+}
+.button-arrounder {
+    font-size: 2rem;
+    background: hsl(190deg, 30%, 15%);
+    color: hsl(190deg, 10%, 95%);
+    
+    box-shadow: 0 0px 0px hsla(190deg, 15%, 5%, .2);
+
+}
 video{
     width:60%;
     height:30%;
 }
-
